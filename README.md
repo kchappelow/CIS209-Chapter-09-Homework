@@ -19,7 +19,7 @@ Next, rewrite class CommissionEmployee from Section 9.4.5 as a subclass of Emplo
 
 Class CommissionEmployee should contain only the instance variables and methods that are not declared in superclass Employee. Class CommissionEmployee’s constructor should invoke class Employee’s constructor, and CommissionEmployee’s toString method should invoke Employee’s to-String method. 
 
-Once you’ve completed these modifications, run the CommissionEmployeeTest and EmployeeTest apps using these new classes to ensure that the apps still display the same results for a CommissionEmployee object and BasePlusCommissionEmployee object, respectively.
+Once you’ve completed these modifications, run the EmployeeTest app using these new classes to ensure that the apps still display the same results for a CommissionEmployee object and BasePlusCommissionEmployee object, respectively.
 
 Next, create a new class HourlyEmployee that inherits from class Employee and has instance variables
  * hours (a double) that represents the hours worked, 
