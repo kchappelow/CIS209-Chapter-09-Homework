@@ -28,7 +28,7 @@ public class EmployeeTest
          "Updated employee information obtained by toString", employee);
 
       // instantiate BasePlusCommissionEmployee object
-      BasePlusCommissionEmployee employee =             
+      BasePlusCommissionEmployee baseEmployee =
          new BasePlusCommissionEmployee(                
          "Bob", "Lewis", "333-33-3333", 5000, .04, 300);
       
@@ -36,23 +36,23 @@ public class EmployeeTest
       System.out.println(
          "Employee information obtained by get methods:%n");
       System.out.printf("%s %s%n", "First name is",
-         employee.getFirstName());
-      System.out.printf("%s %s%n", "Last name is", 
-         employee.getLastName());
-      System.out.printf("%s %s%n", "Social security number is", 
-         employee.getSocialSecurityNumber());
-      System.out.printf("%s %.2f%n", "Gross sales is", 
-         employee.getGrossSales());
+              baseEmployee.getFirstName());
+      System.out.printf("%s %s%n", "Last name is",
+              baseEmployee.getLastName());
+      System.out.printf("%s %s%n", "Social security number is",
+              baseEmployee.getSocialSecurityNumber());
+      System.out.printf("%s %.2f%n", "Gross sales is",
+              baseEmployee.getGrossSales());
       System.out.printf("%s %.2f%n", "Commission rate is",
-         employee.getCommissionRate());
+              baseEmployee.getCommissionRate());
       System.out.printf("%s %.2f%n", "Base salary is",
-         employee.getBaseSalary());
+              baseEmployee.getBaseSalary());
 
-      employee.setBaseSalary(1000); 
+      baseEmployee.setBaseSalary(1000);
       
       System.out.printf("%n%s:%n%n%s%n", 
-         "Updated employee information obtained by toString", 
-          employee.toString());
+         "Updated employee information obtained by toString",
+              baseEmployee.toString());
    } 
 } 
 
