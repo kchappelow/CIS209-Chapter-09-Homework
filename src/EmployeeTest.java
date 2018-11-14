@@ -34,7 +34,7 @@ public class EmployeeTest
       
       // get base-salaried commission employee data
       System.out.println(
-         "Employee information obtained by get methods:%n");
+         "Employee information obtained by get methods:");
       System.out.printf("%s %s%n", "First name is",
               baseEmployee.getFirstName());
       System.out.printf("%s %s%n", "Last name is",
